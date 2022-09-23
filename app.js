@@ -1,6 +1,4 @@
 let apikey = "adb4676581b7a9b11a6c8ae382b6dcf3";
-
-
 function getweather() {
     let cityname = document.querySelector("#cityname").value;
     axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${cityname}&appid=${apikey}`)
